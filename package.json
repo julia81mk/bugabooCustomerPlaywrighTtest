@@ -1,0 +1,19 @@
+{
+  "name": "bugaboocustomerproject",
+  "version": "1.0.0",
+  "description": "Test Customer services using Playwrite",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --ui"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.1"
+  },
+  "dependencies": {
+    "@fakerjs/email": "^1.0.0"
+  }
+}
