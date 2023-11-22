@@ -1,4 +1,4 @@
-export class AnsweronFirstCustomerPage {
+export class AnswerOnFirstCustomerPage {
     constructor(page) {
         this.page = page;
     }
@@ -14,23 +14,3 @@ export class AnsweronFirstCustomerPage {
 }
 
    
-// export async function openAllcarets() {
-//     const questions = await page.locator('.slds-accordion__summary').all();
-//     for (const question of questions) {
-//       await question.click()
-//     }
-//     console.log('==>> questions: ', questions);
-// } 
-
-// function openAllcarets(arrayCarets){
-//     const caretElement = await page.locator('.slds-button__icon').all();
-//     for (const item of  arrayCarets) {
-//          item.click()
-//     }
-// }
-
- // const questions = await page.locator('.slds-accordion__summary').all();
-    // for (const question of questions) {
-    //   await question.click()
-    // }
-    // console.log('==>> questions: ', questions);

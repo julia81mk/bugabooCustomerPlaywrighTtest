@@ -1,1 +1,1 @@
-export  const fileUploadFile = './screenfile.png'
+export const fileUploadFile = './screenfile.png';
